@@ -24,7 +24,7 @@ else:
 if 1 in [1,2,3]:
     
     print('yes it is')
-    
+
 #excercise
 money_available= 100
 #if money is greater or equal han 80 - > eat something fancy

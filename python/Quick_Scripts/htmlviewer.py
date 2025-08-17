@@ -13,8 +13,8 @@ class HTMLViewer:
     def _open_browser(self):
         url = f"http://localhost:{self.port}/{self.filename}"
         webbrowser.open(url)
-        
-        
+
+
     def _serve(self):
         handler = http.server.SimpleHTTPRequestHandler
         with socketserver.TCPServer(("",self.port),handler) as httpd:
@@ -28,8 +28,8 @@ class HTMLViewer:
                 print("\nKeyboard interrupt received. Shutting down server")
                 httpd.shutdown()
                 httpd.server_close()
-                
+
     def start(self):
         os.chdir(os.path.dirname(os.path.abspath(self.filename)))
         self._serve()
-                
+
