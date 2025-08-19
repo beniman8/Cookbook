@@ -15,7 +15,8 @@ class Rectangle:
         
         print(area)
     
-    
-rectangle = Rectangle(5,5)
+length = float(input("Enter the length: "))
+width = float(input("Enter the width: "))
+rectangle = Rectangle(width,length)
 rectangle.area()
     
