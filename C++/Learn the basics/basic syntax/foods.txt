@@ -1,0 +1,3 @@
+cherry 2.35
+cat 2.67
+carrot 9.09
