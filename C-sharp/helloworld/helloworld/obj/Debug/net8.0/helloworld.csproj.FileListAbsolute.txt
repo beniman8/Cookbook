@@ -1,0 +1,15 @@
+F:\Cookbook\C-sharp\helloworld\helloworld\bin\Debug\net8.0\helloworld.exe
+F:\Cookbook\C-sharp\helloworld\helloworld\bin\Debug\net8.0\helloworld.deps.json
+F:\Cookbook\C-sharp\helloworld\helloworld\bin\Debug\net8.0\helloworld.runtimeconfig.json
+F:\Cookbook\C-sharp\helloworld\helloworld\bin\Debug\net8.0\helloworld.dll
+F:\Cookbook\C-sharp\helloworld\helloworld\bin\Debug\net8.0\helloworld.pdb
+F:\Cookbook\C-sharp\helloworld\helloworld\obj\Debug\net8.0\helloworld.GeneratedMSBuildEditorConfig.editorconfig
+F:\Cookbook\C-sharp\helloworld\helloworld\obj\Debug\net8.0\helloworld.AssemblyInfoInputs.cache
+F:\Cookbook\C-sharp\helloworld\helloworld\obj\Debug\net8.0\helloworld.AssemblyInfo.cs
+F:\Cookbook\C-sharp\helloworld\helloworld\obj\Debug\net8.0\helloworld.csproj.CoreCompileInputs.cache
+F:\Cookbook\C-sharp\helloworld\helloworld\obj\Debug\net8.0\helloworld.sourcelink.json
+F:\Cookbook\C-sharp\helloworld\helloworld\obj\Debug\net8.0\helloworld.dll
+F:\Cookbook\C-sharp\helloworld\helloworld\obj\Debug\net8.0\refint\helloworld.dll
+F:\Cookbook\C-sharp\helloworld\helloworld\obj\Debug\net8.0\helloworld.pdb
+F:\Cookbook\C-sharp\helloworld\helloworld\obj\Debug\net8.0\helloworld.genruntimeconfig.cache
+F:\Cookbook\C-sharp\helloworld\helloworld\obj\Debug\net8.0\ref\helloworld.dll

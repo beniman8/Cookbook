@@ -13,7 +13,7 @@ class Rectangle:
         
         area = self.width * self.length
         
-        print(area)
+        print(f"the area is {area} cm^2")
     
 length = float(input("Enter the length: "))
 width = float(input("Enter the width: "))
