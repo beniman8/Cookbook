@@ -14,7 +14,7 @@ class Validate:
         
     def is_valid(self)->bool:
         characters = True if self.username.__len__() <= 12 else False
-        no_space = True if " " not in self.username else False
+        no_space = True if " " not in self.username else False #self.username.find(" ") will also work
         no_digit = True if  self.username.isalpha() else False
         
         
