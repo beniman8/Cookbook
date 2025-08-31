@@ -28,6 +28,10 @@ class Order:
             total += self.quantities[i] * self.prices[i]
         
         return total
+    
+    def show_cart(self):
+        for food in self.items:
+            print(food,end="--|")
 
 class ShowMenu:
     
@@ -38,11 +42,11 @@ class ShowMenu:
             
         print("------------------------------------")
         print("Here is a list of items available to buy")
-        for item in self.items.items():
-            name = item[0]
-            price= item[1]
+        for key,value in self.items.items():
+            name = key
+            price= value
         
-            print(f"name: {name}............price: ${price}")        
+            print(f"{name}.....price: ${price}")        
 
 
 ###############################The program ##################################
@@ -52,19 +56,25 @@ taking_order = True
 
 
 while taking_order:
-    
+
     menu.show()
-    
+
     costumer_input = input("what is the name of the item you would like to order?: ")
     if costumer_input.lower() == "q":
         taking_order = False
-        
-    else:
+
+    elif items.get(costumer_input) is not None:
         quantity = int(input("How many?: "))
         name = costumer_input
         price = items.get(costumer_input)
-        
-        order.add_item(name,quantity,price)
+        order.add_item(name, quantity, price)
+    else:
+        print()
+        print("The item you have entered is not on the menu")
+        print()
 
+print()
 print("*******************************************************************")
-print(f"the total of this order is : ${order.total_price()}")
+
+order.show_cart()
+print(f" The total of this order is : ${order.total_price()}")
