@@ -26,7 +26,8 @@ class Order:
         total = 0 
         for i in range(len(self.prices)):
             total += self.quantities[i] * self.prices[i]
-            return total
+            
+        return total
         
 class Authorizer(ABC):
     @abstractmethod
