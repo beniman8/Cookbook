@@ -1,12 +1,12 @@
 # creating a concession program to practice using dictionaries
 
 items = {
-    "popcorn": 5,
-    "hot dog": 2,
-    "giant pretzel": 4,
-    "asst candy": 1,
-    "soda": 1,
-    "water": 1,
+    "popcorn": 5.52,
+    "hot dog": 2.32,
+    "giant pretzel": 4.47,
+    "asst candy": 1.33,
+    "soda": 1.20,
+    "water": 1.13,
     
 }
 
@@ -46,7 +46,7 @@ class ShowMenu:
             name = key
             price= value
         
-            print(f"{name}.....price: ${price}")        
+            print(f"{name}.....price: ${price:.2f}")        
 
 
 ###############################The program ##################################
