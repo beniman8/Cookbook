@@ -42,8 +42,9 @@ class SequenceNumberGenerator:
     
     def show_sequence(self):
         print(self._sequence)
-        
-        
+
+
+
 generator = SequenceNumberGenerator()
 generator.multiply(2)
 generator.show_sequence()
