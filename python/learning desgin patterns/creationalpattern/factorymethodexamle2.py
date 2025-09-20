@@ -1,6 +1,13 @@
 import pygame
 import random
 from abc import ABC , abstractmethod
+from enum import Enum,auto
+
+
+
+class ShapeType(Enum):
+    CIRCLE = auto()
+    RECTANGLE = auto()
 
 #base abstract class for the shape 
 class Shape(ABC):
@@ -36,13 +43,19 @@ class Rectangle(Shape):
 # shapefactory class for creating shape instance
 class ShapeFactory:
     @staticmethod
-    def create_shape(shape_type,x,y):
-        if shape_type == "Circle":
-            return Circle(x,y)
-        elif shape_type == "Rectangle":
-            return Rectangle(x,y)
+    def create_shape(context):
+        if context.shape_type == ShapeType.CIRCLE:
+            return Circle(context.x,context.y)
+        elif context.shape_type == ShapeType.RECTANGLE:
+            return Rectangle(context.x,context.y)
         else:
             raise ValueError("Invalid shape type")
+
+class ShapeContext:
+    def __init__(self,shape_type,x,y):
+        self.shape_type = shape_type
+        self.x = x 
+        self.y = y 
         
 # main function to set up and run the game loop 
 def main():
@@ -64,8 +77,8 @@ def main():
             #create random shape on mouse click
             elif event.type == pygame.MOUSEBUTTONDOWN:
                 x,y = pygame.mouse.get_pos()
-                shape_type = random.choice(["Circle","Rectangle"])
-                shape = shape_factory.create_shape(shape_type,x,y)
+                shape_type = random.choice(list(ShapeType))
+                shape = shape_factory.create_shape(ShapeContext(shape_type,x,y))
                 shapes.append(shape)
 
         #clear the screen 
