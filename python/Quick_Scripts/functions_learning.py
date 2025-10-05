@@ -28,7 +28,7 @@ def calcultator(num1,num2):
     print(result)
     
     
-#exercise calculatro that take a third argument as an arethemthic operation
+#exercise calculator that take a third argument as an arithmetic operation
 
 def better_calculator(num1:int,num2:int,operation:str) -> str:
     
