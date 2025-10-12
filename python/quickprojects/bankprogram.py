@@ -68,22 +68,22 @@ while running:
         running = False
     elif selection == "1":
         print("######################################################################")
-        print(f"The balance of your account is $ {bank_account.get_balance()}".capitalize())
+        print(f"The balance of your account is $ {bank_account.get_balance():.2f}".capitalize())
         print("######################################################################")
         
     elif selection == "2":
-        amount= int(input("how much money do you want to deposit? :"))
+        amount= float(input("how much money do you want to deposit? :"))
         bank_account.deposit(amount=amount)
         print("######################################################################")
         print(f"depositing money $ {amount} in to your account /n")
-        print(f"your balance is now $ {bank_account.get_balance()}")
+        print(f"your balance is now $ {bank_account.get_balance():.2f}")
         print("######################################################################")
     elif selection == "3":
-        amount= int(input("how much money do you want to withdraw? :"))
+        amount= float(input("how much money do you want to withdraw? :"))
         bank_account.withdraw(amount=amount)
         print("######################################################################")
         print(f"you have withdrawn $ {amount} in to from your account /n")
-        print(f"your balance is now $ {bank_account.get_balance()}")
+        print(f"your balance is now $ {bank_account.get_balance():.2f}")
         print("######################################################################")
     else:
         print("you have not selected a number on our list")
