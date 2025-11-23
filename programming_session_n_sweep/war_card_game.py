@@ -89,13 +89,14 @@ class Player:
         return self.cards.pop(0)
 
     def receive(self, cards):
+        random.shuffle(cards)
         self.cards += cards
         
-    def has_cards(self):
-        # empty list is equal to False . list with anything = True  for all collections
-        return bool(self.cards)
-        
-        
+    def has_cards(self,val=1):
+
+        return len(self.cards) >= val
+
+
 
 
 # draw cards
@@ -140,8 +141,7 @@ while running:
 
 
     table += [player_1_card, player_2_card]
-
-
+    
 
     # compare value of the cards
     if player_1_card.value > player_2_card.value:
@@ -150,7 +150,7 @@ while running:
         table=[]
         print("player 1 wins")
 
-    elif player_1_card.value == player_2_card.value:
+    elif (player_1_card.value == player_2_card.value) and (first_player.has_cards(3) and second_player.has_cards(3) ):
         for _ in range(CARDS_AT_WAR):
             player_1_card, player_2_card = get_players_cards()
             table.append(player_1_card)
