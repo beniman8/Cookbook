@@ -31,7 +31,7 @@ class MainWindow(QMainWindow):
             "text-decoration: underline;"
         )
 
-        # label.setAlignment(Qt.AlignTop)  # VERTICALLY TOP
+        #label.setAlignment(Qt.AlignTop)  # VERTICALLY TOP
 
         # label.setAlignment(Qt.AlignBottom) # VERTICALLY BOTTOM
 

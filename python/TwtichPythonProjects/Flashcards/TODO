@@ -1,0 +1,39 @@
+#DONE DESIGN THE GUI
+#DONE GENERATE FLASH CARD LIST  
+#DONE FLASH CARDS HAVE ONE ANSWER  LINK IMAGE TO ANSWER
+#TODO REVIEW SHOWS THE ANSWER 5 SECONDS AND GOES TO THE NEXT CARD
+#TODO RUN THE PROGRAM UNTIL YOU GUESS ALL THE CARDS AND THERE IS NO MORE CARDS
+#TODO add date modified and date studied 
+
+#DONE 3 TABS  STUDY  TEST   CREATE 
+
+###### RULES  #####
+#DONE EACH CARD GETS ONE QUESTION AND ANSWER
+#MAKE THE CARDS YOURSELF
+#PRACTICE MODE  YOU SEE THE QUESTION AND THE ANSWER 
+#TEST MODE  ONLY SEE THE QUESTIONS
+# 3 PILES  OR BUTTON   KNOW   *** KIND OF KNOW **  DON'T KNOW
+# *** SPACED REPETITION SYSTEM ***
+
+#DONE IDEA
+#DONE DESIGN/ARCHITECTURE/FLOWCHART
+#PROGRAM
+
+
+A standard spaced repetition schedule for a new piece of information looks like this:
+Day 1: Initial learning
+Day 2: First review (within 24 hours)
+Day 4: Second review
+Day 8: Third reviewDay 15: Fourth review
+
+#TEST MODE YOU NEED TO ANSWER 
+1. Create Effective CardsKeep it strictly one-to-one: Limit each card to a single question and answer. 
+Avoid long, multi-point lists on one side.
+
+Make them yourself: The very act of writing the cards helps your brain process and encode the information.
+Use visuals: Enhance memory by including diagrams, mnemonics, or color codes.
+
+2. Practice Actively Say it aloud: Do not just look at the prompt and think, "Yeah, I know that." Force yourself to say the answer out loud or write it down before flipping the card.Use both sides: Test yourself in reverse—look at the definition and try to recall the exact term.
+
+3. Organize with Spaced Repetition SystemsInstead of going straight through a deck, people organize cards to focus on what they don't know:The Three-Pile Method: Create piles for "Know," "Kind of Know," and "Don't Know". Shuffle the "Don't Know" and "Kind of Know" piles more frequently until all cards reach the "Know" pile.The Leitner System: Organize cards into boxes. If you get a card right, it moves to a box you review less often (e.g., every 3 days). If you get it wrong, it goes back to the daily review box.
+

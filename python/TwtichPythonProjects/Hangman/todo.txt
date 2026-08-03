@@ -1,0 +1,15 @@
+#DONE Display image to gui 
+
+#DONE have the computer choose a random word 
+
+#DONE Display the amount of lines representing the amount of letter _ _ _ 
+
+#DONE Get letter input from user and **delete** the letters they have already selected
+
+#DONE If the letters are incorrect show images of hangman until the images are all shown and it is game over or the person guesses the word and wins
+
+#DONE wrong guess counter 
+#DONE image updating 
+#DONE win detection 
+#DONE lose detection
+#restart button
