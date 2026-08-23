@@ -5,15 +5,26 @@
             "questions": [
                 {
                     "question": "What is 7 \u00d7 8?",
-                    "answer": "56"
+                    "answer": "56",
+                    "date_studied": "2026-08-22T21:18:02.553905",
+                    "knowledge_level": 2
                 },
                 {
                     "question": "What is the square root of 81?",
-                    "answer": "9"
+                    "answer": "9",
+                    "date_studied": "2026-08-22T21:18:04.209144",
+                    "knowledge_level": 2
                 },
                 {
                     "question": "What is 15 + 27?",
-                    "answer": "42"
+                    "answer": "42",
+                    "date_studied": "2026-08-22T21:18:05.285117",
+                    "knowledge_level": 0
+                },
+                {
+                    "question": "test question",
+                    "answer": "test answers",
+                    "date_studied": "2026-08-22T21:18:07.135648"
                 }
             ]
         },
@@ -22,15 +33,23 @@
             "questions": [
                 {
                     "question": "What planet is known as the Red Planet?",
-                    "answer": "Mars"
+                    "answer": "Mars",
+                    "date_studied": "2026-08-22T19:49:29.072191"
                 },
                 {
                     "question": "What gas do plants absorb from the atmosphere?",
-                    "answer": "Carbon dioxide"
+                    "answer": "Carbon dioxide",
+                    "date_studied": "2026-08-22T19:49:30.509976"
                 },
                 {
                     "question": "What is the chemical symbol for water?",
-                    "answer": "H2O"
+                    "answer": "H2O",
+                    "date_studied": "2026-08-22T19:49:33.029380"
+                },
+                {
+                    "question": "test2",
+                    "answer": "answeer2",
+                    "date_studied": "2026-08-22T21:16:42.235555"
                 }
             ]
         },
@@ -39,15 +58,27 @@
             "questions": [
                 {
                     "question": "Who painted the Mona Lisa?",
-                    "answer": "Leonardo da Vinci"
+                    "answer": "Leonardo da Vinci",
+                    "knowledge_level": 1
                 },
                 {
                     "question": "What are the three primary colors?",
-                    "answer": "Red, Blue, and Yellow"
+                    "answer": "Red, Blue, and Yellow",
+                    "knowledge_level": 1
                 },
                 {
                     "question": "What tool is commonly used to blend charcoal in drawing?",
                     "answer": "A blending stump"
+                }
+            ]
+        },
+        {
+            "name": "Music",
+            "questions": [
+                {
+                    "question": "What is music",
+                    "answer": "It is art",
+                    "date_studied": "2026-08-22T21:36:53.431789"
                 }
             ]
         }

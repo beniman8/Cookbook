@@ -1,17 +1,17 @@
 #DONE DESIGN THE GUI
 #DONE GENERATE FLASH CARD LIST  
 #DONE FLASH CARDS HAVE ONE ANSWER  LINK IMAGE TO ANSWER
-#TODO REVIEW SHOWS THE ANSWER 5 SECONDS AND GOES TO THE NEXT CARD
-#TODO RUN THE PROGRAM UNTIL YOU GUESS ALL THE CARDS AND THERE IS NO MORE CARDS
-#TODO add date modified and date studied 
+#DONE REVIEW SHOWS THE ANSWER AND GOES TO THE NEXT CARD WHEN YOU PRESS NEXT
+#DONE RUN THE PROGRAM UNTIL YOU GUESS ALL THE CARDS AND THERE IS NO MORE CARDS
+#DONE add date modified and date studied 
 
 #DONE 3 TABS  STUDY  TEST   CREATE 
 
 ###### RULES  #####
 #DONE EACH CARD GETS ONE QUESTION AND ANSWER
-#MAKE THE CARDS YOURSELF
-#PRACTICE MODE  YOU SEE THE QUESTION AND THE ANSWER 
-#TEST MODE  ONLY SEE THE QUESTIONS
+#TODO MAKE THE CARDS YOURSELF
+#DONE PRACTICE MODE  YOU SEE THE QUESTION AND THE ANSWER 
+#DONE TEST MODE  ONLY SEE THE QUESTIONS
 # 3 PILES  OR BUTTON   KNOW   *** KIND OF KNOW **  DON'T KNOW
 # *** SPACED REPETITION SYSTEM ***
 
@@ -21,10 +21,11 @@
 
 
 A standard spaced repetition schedule for a new piece of information looks like this:
-Day 1: Initial learning
-Day 2: First review (within 24 hours)
-Day 4: Second review
-Day 8: Third reviewDay 15: Fourth review
+Day 1: Initial learning  --- add the current date and time to data
+Day 2: First review (within 24 hours)  -- less than 24 hours after review 
+Day 4: Second review 
+Day 8: Third review 
+Day 15: Fourth review
 
 #TEST MODE YOU NEED TO ANSWER 
 1. Create Effective CardsKeep it strictly one-to-one: Limit each card to a single question and answer. 

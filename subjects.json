@@ -1,0 +1,58 @@
+{
+    "subjects": [
+        {
+            "name": "Math",
+            "questions": [
+                {
+                    "question": "What is 7 \u00d7 8?",
+                    "answer": "56",
+                    "date_studied": "2026-08-10T05:28:22.544781"
+                },
+                {
+                    "question": "What is the square root of 81?",
+                    "answer": "9",
+                    "date_studied": "2026-08-10T05:28:23.652754"
+                },
+                {
+                    "question": "What is 15 + 27?",
+                    "answer": "42",
+                    "date_studied": "2026-08-10T05:28:26.294359"
+                }
+            ]
+        },
+        {
+            "name": "Science",
+            "questions": [
+                {
+                    "question": "What planet is known as the Red Planet?",
+                    "answer": "Mars"
+                },
+                {
+                    "question": "What gas do plants absorb from the atmosphere?",
+                    "answer": "Carbon dioxide"
+                },
+                {
+                    "question": "What is the chemical symbol for water?",
+                    "answer": "H2O"
+                }
+            ]
+        },
+        {
+            "name": "Art",
+            "questions": [
+                {
+                    "question": "Who painted the Mona Lisa?",
+                    "answer": "Leonardo da Vinci"
+                },
+                {
+                    "question": "What are the three primary colors?",
+                    "answer": "Red, Blue, and Yellow"
+                },
+                {
+                    "question": "What tool is commonly used to blend charcoal in drawing?",
+                    "answer": "A blending stump"
+                }
+            ]
+        }
+    ]
+}
