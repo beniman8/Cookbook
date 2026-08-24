@@ -321,9 +321,6 @@ class FLASHCARD(QWidget):
 
         
         list_of_cards.activated[str].connect(self.start_studying)
-        
-        
-     
 
 
 
@@ -439,7 +436,7 @@ class FLASHCARD(QWidget):
     def add_question(self,ind):
         #clear fields and reset combobox
     
-        question_and_answer = {'question':self.question.text(),'answer':self.answer.text(),'date_studied':datetime.now().isoformat()}
+        question_and_answer = {'question':self.question.text(),'answer':self.answer.text(),'date_studied':datetime.now().isoformat(),'knowledge_level':0}
         self.data['subjects'][ind]['questions'].append(question_and_answer)
         
         with open(self.file_path, "w") as f:
