@@ -1,0 +1,22 @@
+{
+    "contacts": [
+        {
+            "user_id": 0,
+            "first_name": "one",
+            "last_name": "one",
+            "phone_number": "one",
+            "email": "one",
+            "address": "one",
+            "instagram": "one"
+        },
+        {
+            "user_id": 1,
+            "first_name": "two",
+            "last_name": "two",
+            "phone_number": "two",
+            "email": "two",
+            "address": "two",
+            "instagram": "two"
+        }
+    ]
+}
