@@ -1,6 +1,6 @@
-"""Json  file to save contacts  save edit delete"""
+"""Json  file to save contacts  save edit delete
 
-""" example
+example:
 
 {
     "contacts":[
@@ -17,7 +17,10 @@
 
 }
 
+
 """
+
+
 
 from pathlib import Path
 
@@ -102,7 +105,7 @@ def save_data(
 
 
 def edit_data(user_id: int, value_name: str, value: str):
-    """Edit data from our database
+    """Edit single data from our database
 
     user_id:
         the user id you want to edit
@@ -151,6 +154,43 @@ def delete_data(user_id):
     data["contacts"] = contacts
 
     # save the data with the new contact list
+    try:
+        with open(file_path, "w", encoding="utf-8") as file:
+            json.dump(data, file, indent=4)
+            return
+    except:
+        return f"We were not able to write in your database"
+
+
+def edit_all_data(user_id: int, first_name,last_name,phone_number,email,address,instagram):
+    """Edit single data from our database
+
+    user_id:
+        the user id you want to edit
+
+    value_name:
+        the value you want to edit such as email
+
+    value:
+        the actual value you will be adding the database
+
+    """
+
+    data = get_current_data()
+
+    for info in data["contacts"]:
+        # search data by user id and update it
+
+        if info["user_id"] == user_id:
+            info['first_name'] = first_name
+            info['last_name'] = last_name
+            info['phone_number'] = phone_number
+            info['email'] = email
+            info['address'] = address
+            info['instagram'] = instagram
+            
+            
+    # save the data
     try:
         with open(file_path, "w", encoding="utf-8") as file:
             json.dump(data, file, indent=4)
